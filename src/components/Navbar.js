@@ -4,9 +4,6 @@ import { SocialIcon } from "react-social-icons";
 
 export default function Navbar() {
 
-    const isActive = true;
-    const isDisabled = false;
-
     return (
         <header className="bg-red-600">
             <div className="container mx-auto flex justify-start">
