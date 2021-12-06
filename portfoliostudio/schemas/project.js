@@ -25,9 +25,9 @@ export default {
             type: "string",
             options: {
                 list: [
-                    {value: "personal", type: "Personal"},
-                    {value: "client", type: "Client"},
-                    {value: "educational", type: "Educational"},
+                    {value: "personal", type: "Personal", type: "string"},
+                    {value: "client", type: "Client", type: "string"},
+                    {value: "educational", type: "Educational", type: "string"},
                 
                 ],
             },
